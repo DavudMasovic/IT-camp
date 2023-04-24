@@ -4,7 +4,7 @@ body {
 
 .main {
     width: 100%;
-    height: 100vh;
+    height: 600vh;
     background-color: #ffff;
 }
 
@@ -27,7 +27,7 @@ body {
     align-items: center;
     width: 45%;
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.616);
+    background-color: rgba(43, 43, 43, 0.884);
     color: #ffff;
 
 }
@@ -43,10 +43,22 @@ body {
     justify-content: flex-end;
     width: 55%;
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.616);
+    background-color: rgba(43, 43, 43, 0.884);
     gap: 25px;
     cursor: pointer;
 }
+
+.main1 {
+    width: 80vh;
+    width: 100%;
+}
+
+.main1 img {
+    width: 100%;
+    height: 100%;
+}
+
+
 
 .right a {
     display: flex;
@@ -210,4 +222,198 @@ body {
 
 
     border: 2px solid #ffff;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+}
+
+.glavni {
+    display: flex;
+    width: 100%;
+    height: 170px;
+
+}
+
+.leftText {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    font-size: 20px;
+    height: 100%;
+    margin-left: 370px;
+}
+
+.desniText {
+    display: flex;
+    justify-content: start;
+    height: 100%;
+    width: 30%;
+    font-size: 20px;
+}
+
+.png {
+    width: 100%;
+    height: 614px;
+}
+
+.png img {
+    width: 100%;
+    height: 100%;
+}
+
+.colum1 {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #2654aa;
+    margin: 0;
+    padding: o;
+}
+
+.card {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2654aa;
+
+    margin: 0;
+    padding: o;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.btn2:hover {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(53, 202, 228);
+    background-color: transparent;
+}
+
+.btn2 {
+    background-color: #ffff;
+    border: 1px solid #ffff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.header i {
+    font-weight: 1500;
+}
+
+.meni {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    color: #ffff;
+
+}
+
+.meni h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
+}
+
+.meni h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.btn2 {
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.zadnji {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leptir {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.leptir img {
+    height: 150px;
+    width: 400px;
+
+}
+
+.leptiric {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.leptiric button {
+    display: flex;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    gap: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: rgb(17, 200, 224);
+    border: 2px solid #ffff;
+    color: #ffff;
+}
+
+.btn3:hover {
+    background-color: #ffff;
+    color: rgb(70, 70, 172);
+
+}
+
+@media only screen and (max-width:700px) {
+    .right {
+        <i class="fa-solid fa-bars"></i>
+    }
 }

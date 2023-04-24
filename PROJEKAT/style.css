@@ -1,0 +1,511 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+main {
+    height: 295vh;
+    width: 100%;
+}
+
+.gore {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(53, 94, 207);
+    display: flex;
+}
+
+.levi {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 70px;
+}
+
+.levi p {
+    color: #ffff;
+    margin-top: 12 px;
+}
+
+.levi i {
+    color: #ffff;
+}
+
+.desni {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+    gap: 10px;
+}
+
+.desni i {
+    font-size: 25px;
+    color: #ffff;
+}
+
+.desni i:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.desni a {
+    font-size: 20px;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.dole {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #ffff;
+    box-shadow: 0 0 10px 0;
+    color: black;
+}
+
+.left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    margin-left: 300px;
+}
+
+.right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+.right a {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(76, 148, 69);
+    font-weight: 600;
+}
+
+.right a:hover {
+    opacity: 0.2;
+    color: black;
+}
+
+.right i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.right i:hover {
+    opacity: 0.6;
+    color: white;
+}
+
+.glup {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(8, 77, 145, 0.568);
+    display: flex;
+
+}
+
+.Fimg {
+    width: 350px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.film img {
+    height: 100px;
+    width: 100px;
+}
+
+.phone {
+    width: 450px;
+    height: 100%;
+    margin-top: 45 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.phone a:hover {
+    opacity: 0.4;
+}
+
+.phone h1 {
+    margin-left: 10px;
+}
+
+.phone div {
+    margin-top: 30px;
+    margin-left: 10px;
+    gap: 15px;
+}
+
+.ulica {
+    font-size: 23px;
+    color: #ffff;
+    gap: 15px;
+}
+
+.ulica i {
+    font-size: 25px;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.leto {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.tabla {
+    width: 400px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tabla1 i:hover {
+    opacity: 0.3;
+}
+
+.tabla1 h1 {
+    color: #ffff;
+}
+
+.tabla1 i {
+    font-size: 50px;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    color: #ffff;
+}
+
+.zadnji {
+    width: 600px;
+    height: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.end {
+    width: 80%;
+    height: 80%;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.leto h1 {
+    color: #ffff;
+}
+
+.end p {
+    font-size: 26px;
+    color: #ffff;
+}
+
+.end p:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 900px;
+}
+
+.slika {
+    background-image: url(http://mineral.si/static/media/background.df37ae6538a24ef60183.png);
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sajla p {
+    font-size: 60px;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.dax {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+}
+
+.child {
+    display: flex;
+
+    width: 20%;
+    height: 100%;
+    margin-left: 350px;
+}
+
+.child1 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    margin-left: 60px;
+}
+
+.child2 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    margin-left: 50px;
+}
+
+.jedinica i {
+    font-size: 60px;
+
+    color: #ffff;
+
+}
+
+.jedinica {
+    width: 100px;
+    height: 100px;
+    background-color: #3d618f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prvi {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.drugi {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pas {
+    margin-left: 360px;
+    margin-top: 25px;
+    color: rgb(76, 145, 116);
+    text-decoration-line: underline;
+    font-size: 120px;
+    font-weight: 700;
+
+}
+
+.glava {
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend {
+    width: 80%;
+    height: 100%;
+    margin-left: 300px;
+
+}
+
+.mozak {
+    width: 80%;
+    height: 100px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 50%;
+    height: 70px;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+
+.btn button {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn button h3 {
+    display: flex;
+    justify-content: start;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.btn button:hover {
+    box-shadow: 0 10px 20px 0;
+    color: rgb(45, 243, 243);
+}
+
+.zub {
+    width: 80%;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.noga {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+}
+
+.noga h3 {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 280px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.noga:hover {
+    box-shadow: 0 10px 20px 0;
+    color: rgb(45, 243, 243);
+}
+
+.office {
+    margin-top: 150px;
+    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: 200px;
+
+}
+
+.office h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--header);
+    position: relative;
+}
+
+.office p {
+    font-size: 25px;
+}
+
+.peta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.card h5 {
+    font-weight: 400;
+}
+
+.peta div {
+    border-radius: 0;
+    margin-top: 50px;
+}
+
+.mapContainer iframe {
+    margin-top: 30px;
+    width: 100%;
+    height: 750px;
+
+}
+
+.kadir {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(6, 116, 124);
+}
+
+.up {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: 50px;
+    margin-top: 130px;
+}
+
+.up h1 {
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.down {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.obaki {
+    height: 50px;
+    width: 400px;
+    border: 1px solid #ffff;
+    display: flex;
+    margin-top: 20px;
+}
+
+.maki {
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.daki {
+    width: 30%;
+    height: 100%;
+    background-color: #ffff;
+    color: rgb(6, 116, 124);
+}
